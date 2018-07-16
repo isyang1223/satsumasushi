@@ -17,38 +17,38 @@ export class AppComponent implements OnInit{
     private http: HttpClient
   ) { }
   ngOnInit() {
-    $(document).ready(function () {
-      $('#homeLink').click(function () {
-        document.getElementById('homeLink').classList.add('active');
-        document.getElementById('galleryLink').classList.remove('active');
-        document.getElementById('menuLink').classList.remove('active');
-        document.getElementById('ourRestrauntLink').classList.remove('active');
+    // $(document).ready(function () {
+    //   $('#homeLink').click(function () {
+    //     document.getElementById('homeLink').classList.add('active');
+    //     document.getElementById('galleryLink').classList.remove('active');
+    //     document.getElementById('menuLink').classList.remove('active');
+    //     document.getElementById('ourRestrauntLink').classList.remove('active');
 
-      });
+    //   });
 
-      $('#galleryLink').click(function () {
-        document.getElementById('homeLink').classList.remove('active');
-        document.getElementById('galleryLink').classList.add('active');
-        document.getElementById('menuLink').classList.remove('active');
-        document.getElementById('ourRestrauntLink').classList.remove('active');
-      });
-      $('#menuLink').click(function () {
-        document.getElementById('homeLink').classList.remove('active');
-        document.getElementById('galleryLink').classList.remove('active');
-        document.getElementById('menuLink').classList.add('active');
-        document.getElementById('ourRestrauntLink').classList.remove('active');
+    //   $('#galleryLink').click(function () {
+    //     document.getElementById('homeLink').classList.remove('active');
+    //     document.getElementById('galleryLink').classList.add('active');
+    //     document.getElementById('menuLink').classList.remove('active');
+    //     document.getElementById('ourRestrauntLink').classList.remove('active');
+    //   });
+    //   $('#menuLink').click(function () {
+    //     document.getElementById('homeLink').classList.remove('active');
+    //     document.getElementById('galleryLink').classList.remove('active');
+    //     document.getElementById('menuLink').classList.add('active');
+    //     document.getElementById('ourRestrauntLink').classList.remove('active');
 
-      });
-      $('#ourRestrauntLink').click(function () {
-        document.getElementById('homeLink').classList.remove('active');
-        document.getElementById('galleryLink').classList.remove('active');
-        document.getElementById('menuLink').classList.remove('active');
-        document.getElementById('ourRestaurantLink').classList.add('active');
+    //   });
+    //   $('#ourRestrauntLink').click(function () {
+    //     document.getElementById('homeLink').classList.remove('active');
+    //     document.getElementById('galleryLink').classList.remove('active');
+    //     document.getElementById('menuLink').classList.remove('active');
+    //     document.getElementById('ourRestaurantLink').classList.add('active');
 
-      });
+    //   });
 
 
-    });
+    // });
 
 
     $(window).scroll(function () {

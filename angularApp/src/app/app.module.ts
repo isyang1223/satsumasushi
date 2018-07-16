@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { OurrestaurantComponent } from './ourrestaurant/ourrestaurant.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 
@@ -23,7 +24,8 @@ import { OurrestaurantComponent } from './ourrestaurant/ourrestaurant.component'
     AppComponent,
     HomeComponent,
     GalleryComponent,
-    OurrestaurantComponent
+    OurrestaurantComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

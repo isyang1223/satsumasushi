@@ -27,6 +27,7 @@
 }
 .core {
     text-align: center;
+    padding-bottom: 200px;
 
 
 }
@@ -378,10 +379,11 @@
     height: 500px;
     background-color: red;
     color: white;
-    margin-top: 200px;
+   
 }
 .copyright {
-    padding-top: 100px;
+    padding-top: 80px;
+    
 }
 /* .heading {
     padding-top: 400px;
@@ -434,4 +436,23 @@
 #kitchen {
     top: 200px;
     background-color: darkgray;
+}
+
+.menu {
+    margin-top: 150px;
+}
+.menubg{
+    background-color: black;
+    padding-bottom: 200px;
+
+}
+.bottom {
+    padding-bottom: 200px;
+}
+.map {
+    padding-bottom: 200px;
+}
+
+.order {
+    background-color: red;
 }
